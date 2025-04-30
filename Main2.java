@@ -1,13 +1,9 @@
 import java.util.ArrayList;
 import java.util.Scanner;
 
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main2 {
     public static void main(String[] args) {
         int numdecasos, posicion, num, suma;
-        ArrayList<Integer> mayorderecha = new ArrayList<>();
-        ArrayList<Integer> mayorizquierda = new ArrayList<>();
 
         Scanner sc = new Scanner(System.in);
         numdecasos = sc.nextInt();
